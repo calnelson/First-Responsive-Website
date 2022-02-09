@@ -1,0 +1,402 @@
+@media (min-width: 500px){
+
+
+
+
+    .hero {
+        background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+        height: 50%;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+     }
+    
+    #hero-text {
+       color: black;
+       text-align: center;
+       font-size: 100px;
+       font-family: Arial, Helvetica, sans-serif;
+       padding: 175px;
+    
+    }
+    
+    body {
+       width: auto;
+    
+    }
+    
+    .first-row {
+       
+       grid-template-columns: none;
+        display: grid; 
+        grid-template-columns: none;
+        grid-template-rows: 50% 50%;  
+        height: 500px;
+        padding-bottom: 50px; 
+       
+        
+        
+    }
+    
+    .grid-1 {
+    
+        grid-row: 1/2; 
+
+        padding-left: 50px; 
+        
+         
+       
+    }
+    
+    .james-webb-image {
+        grid-row: 2/3; 
+        height: 350px; 
+       
+        padding-left: 50px;
+        padding-bottom: 50px;
+    
+        
+        }
+    
+   
+    
+    .article-text {
+
+        text-align: center;
+    
+        padding-top: 10px;
+        
+        margin-right: 100px;
+    
+        font-size: 20px;
+    
+        color: black;
+        
+        /* text-align: center; */
+    }
+    
+    
+    .grid-2 {
+        padding: 50px; 
+        grid-row: 1/2;
+        
+       
+    }
+    
+    
+    .grid-3 {
+        justify-content: center;
+        grid-column: 2/3;
+    
+        /* padding-top: 50px; */
+        padding-left: 25%; 
+        grid-row: 2/3; 
+    
+        
+        /* border: black solid 1px;  */
+       
+    }
+    
+    
+    .grid-4 {
+        
+        
+    
+        grid-column: 4/5; 
+        /* border: black solid 1px;  */
+       
+    }
+    
+       
+        
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        /* text-align: center; */
+       
+    }
+    
+    p{
+        font-family: sans-serif;
+        font-size: smaller;
+        color: #9B9B9B;
+    }
+    
+    footer {
+        
+        /* margin: 100px 0px; */
+        display: grid; 
+        grid-template-columns: 33% 33% 33%; 
+        /* grid-template-rows: 50% 50%; */
+        /* justify-content: space-evenly; */
+        background-color: #E6E6E6 ;
+    
+        
+        }
+    
+    
+    .nasa-logo {
+        height: 85px;
+        width: 170px;
+        grid-column: 1/7;
+        grid-row: 1/2; 
+        padding-top: 30px;
+    }
+    
+    
+    .social-media {
+        padding: 50px;
+        grid-column: 1/2; 
+        grid-row: 1/2;
+        background-color: #E6E6E6;
+       
+    }
+    
+    .location {
+        grid-column: 2/3; 
+        grid-row: 1/2;
+        padding: 50px; 
+      
+        background-color: #E6E6E6 ;
+       
+    }
+    
+    .contact-info {
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding: 50px; 
+        
+        background-color: #E6E6E6 ;
+       
+    }
+    
+    label {
+        color: #9B9B9B;
+    }
+    
+    #name {
+        margin: 10px 0px; 
+        border-style: none;
+        color: #9B9B9B;
+        
+    }
+    
+    #message {
+        padding: 20px; 
+        border-style: none;
+        color: #9B9B9B;
+    }
+    
+    #submit {
+        margin: 10px 0px; 
+        background-color: #4D4D4D ;
+        color: white; 
+        height: 30px; 
+        width: 50px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+}
+
+
+
+
+
+/* laptop media query */
+@media (min-width: 992px) {
+
+
+.hero {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg);
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero-text {
+   color: white; 
+   text-align: center;
+   font-size: 300px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 75px;
+
+}
+
+body {
+   width: auto;
+
+}
+
+.first-row {
+   
+    /* margin: 100px 0px; */
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: none; 
+    height: 500px; 
+
+}
+
+.grid-1 {
+
+    grid-column: 1/2; 
+    /* border: black solid 1px;  */
+   
+}
+
+.grid-2 {
+    padding: 50px; 
+    grid-column: 2/4; 
+    /* border: black solid 1px;  */
+}
+
+
+.article-text {
+
+
+    padding-top: 10px; 
+
+    font-size: 15px;
+
+    color: black;
+    text-align: left;
+}
+
+
+.grid-3 {
+    justify-content: center;
+
+    /* padding-top: 50px;
+    padding-left: 25%;  */
+
+    grid-column: 4/6; 
+    /* border: black solid 1px;  */
+   
+}
+
+.james-webb-image {
+    grid-column: 2/3; 
+    height: 400px; 
+    border: black solid 1px; 
+    
+}
+
+
+.grid-4 {
+    
+    
+
+    grid-column: 4/5; 
+    /* border: black solid 1px;  */
+   
+}
+
+   
+    
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    /* text-align: center; */
+   
+}
+
+p{
+    font-family: sans-serif;
+    font-size: smaller;
+    color: #9B9B9B;
+}
+
+footer {
+    
+    /* margin: 100px 0px; */
+    display: grid; 
+    grid-template-columns: 17% 17% 17% 17% 17% 15%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-evenly;
+    background-color: #E6E6E6 ;
+    
+    
+    
+}
+
+
+article {
+    height: 200px; 
+    width: 270px; 
+    padding: 300px;  
+    margin: 50px; 
+    
+   
+}
+
+.nasa-logo {
+    height: 340px;
+    width: 680px;
+    grid-column: 1/7;
+    grid-row: 1/2; 
+    padding-top: 30px;
+}
+
+
+
+.social-media {
+    padding: 50px;
+    grid-column: 3/7; 
+    grid-row: 1/2;
+    background-color: #E6E6E6 ;
+    /* border: 1px solid black;  */
+}
+
+.location {
+    grid-column: 4/7; 
+    grid-row: 1/2;
+    padding: 50px; 
+    background-color: #E6E6E6 ;
+    /* border: 1px solid black;  */
+}
+
+.contact-info {
+    grid-column: 5/7;
+    grid-row: 1/2;
+    padding: 50px; 
+    background-color: #E6E6E6 ;
+    /* border: 1px solid black;  */
+}
+
+label {
+    color: #9B9B9B;
+}
+
+#name {
+    margin: 10px 0px; 
+    border-style: none;
+    color: #9B9B9B;
+    
+}
+
+#message {
+    padding: 30px; 
+    border-style: none;
+    color: #9B9B9B;
+}
+
+#submit {
+    margin: 10px 0px; 
+    background-color: #4D4D4D ;
+    color: white; 
+    height: 30px; 
+    width: 80px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+
